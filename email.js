@@ -1,4 +1,10 @@
+function sendEmail(){
 
+window.location = ("mailto:?subject=" 
+	+ escape(this.document.title)
+	+ "&body=" 
+	+ escape(this.document.URL)
+	);
+}
 
-window.location = ("mailto:?subject=" + this.document.title + "&body=" + this.document.URL);
-
+sendEmail();
