@@ -1,3 +1,6 @@
 # email_button
+Very simple Chrome extension that when clicked:
 
-Chrome extension that when clicked opens email client window; the current tab's URL in the body and page title in the subject.
+1. Opens email client. 
+2. Inserts URL of Chrome's current open tab into an email message.
+3. Inserts title of current web page into email subject.
